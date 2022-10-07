@@ -1,5 +1,5 @@
 from random import randint
-score = int(10)
+score = int(300)
 
 play = input("Let's start the game you have 300 points. [y/n]")
 while play =="y":
@@ -27,4 +27,4 @@ while play =="y":
      if score < 0:
          play = input("You loss! Do want want to play again? [y/n]")
 if play == "n":
-    print("thanks for play!")   
+    print("thanks for play!")    
